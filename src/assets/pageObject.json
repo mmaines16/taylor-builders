@@ -1,0 +1,11 @@
+{
+    "sectionTitles": ["about us", "what we do", "contact us"],
+    "contentText": {
+        "aboutUs": "Taylor Builders was founded in 2019 by Hayden Taylor in Pompano Beach, FL. Hayden has a BS/BA in Business Finance from the University of Central Florida, as well as professional certifications including his commercial general contractors license and LEED AP BD+C Certification. Over the years, he has gained extensive experience in both residential and commercial projects, ranging from small home renovations to commercial ground up projects over 150 Million.",
+        "companyDescription": "Taylor Builders has proven experience in both residential and commercial remodel and ground up projects. For a reliable and honest contractor in the tri-county areas of South Florida, look no further than Taylor Builders. Contact us today for more information!"
+    },
+    "contactInfo": {
+        "phone": "407-756-0713",
+        "email": "htaylor@taylorbuildersfl.com"
+    }
+}

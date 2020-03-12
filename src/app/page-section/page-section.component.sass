@@ -1,0 +1,49 @@
+.page-section-container
+    min-height: 40vh
+    width: 100vw
+    display: flex
+    flex-direction: column
+    justify-content: center
+
+    > img
+        position: relative
+        top: 0px
+        z-index: -1
+
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed
+        background-position: center
+        background-repeat: no-repeat
+        background-size: cover
+    
+    > .page-section-header
+        font-weight: bold
+        align-self: center
+        height: 15%
+    > .page-section-body
+        margin: 0px
+        height: 80%
+        width: 95%
+        display: flex
+        flex-direction: row
+        align-self: center
+        font-size: x-large
+        text-align: center
+
+@media screen and (max-height: 750px), screen and (max-width: 768px) 
+    .page-section-container
+        > .page-section-header
+            font-size: xx-large
+        > .page-section-body
+            width: 80%
+            font-size: x-large 
+
+@media screen and (max-height: 675px)
+    .page-section-container
+        > .page-section-header
+            font-size: x-large
+        > .page-section-body
+            width: 80%
+            font-size: x-large
+
+        

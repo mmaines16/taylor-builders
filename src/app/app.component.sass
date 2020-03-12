@@ -1,0 +1,52 @@
+.nav
+    width: 100vw
+    position: absolute
+    top: 0px
+    min-height: 10vh
+
+.navLogo
+    width: 5%
+
+.content
+    position: absolute
+    top: 50vh
+
+.compDesc
+    display: flex
+    flex-direction: row
+    margin-left: 5%
+    align-items: center
+    text-align: justify
+    width: 90%
+    font-size: xx-large
+
+// Ipad 2 settings
+@media screen and (max-height: 1366px) and (max-width: 1025px)
+    .navLogo
+        width: 10%
+
+// Ipad 1 settings
+@media screen and (max-height: 1024px) and (max-width: 768px)
+    .compDesc
+        text-align: justify
+        font-size: large
+
+    .navLogo
+        width: 14%
+
+@media screen and (max-height: 650px), screen and (max-width: 767px)
+    .compDesc
+        width: 100%
+        margin: 0px
+        font-size: medium
+
+    .navLogo
+        width: 14%
+
+@media screen and (max-height: 640px), screen and (max-width: 374px)
+    .compDesc
+        text-align: justify
+        font-size: small
+
+    .navLogo
+        width: 14%

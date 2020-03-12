@@ -1,0 +1,6 @@
+<div class="page-section-container" style.background-image="url({{imageUrl}})" [style.color]="imageUrl.length==0 ? 'black' : 'white'">
+    <h2 class="page-section-header">{{sectionTitle}}</h2>
+    <div class="page-section-body">
+        <ng-content></ng-content>   
+    </div>
+</div>

@@ -1,0 +1,72 @@
+.container
+    display: flex
+    flex-direction: row
+    justify-content: space-between
+    width: 95vw
+
+    .logo
+        width: 40%
+        display: flex
+        flex-direction: row
+        justify-content: center
+        align-items: center
+
+        .image
+            width: 25vw
+            display: flex
+            flex-direction: column
+            justify-content: center
+
+            > img
+                width: 100%
+                align-self: center
+                justify-self: center
+
+    .contactInfo
+        width: 60%
+        display: flex
+        flex-direction: row
+        align-items: center
+
+        .labels
+            flex-direction: column
+            align-items: flex-end
+            padding-right: 0px
+            text-align: right
+            margin-right: 20px
+
+        .info
+            flex-direction: column
+            justify-content: flex-start
+            text-align: left
+
+// Ipad 1 settings
+@media screen and (max-height: 1024px) and (max-width: 768px)
+    .contactInfo
+        font-size: large
+
+
+@media screen and (max-height: 650px), screen and (max-width: 767px)
+    .container
+        flex-direction: column
+        justify-content: center
+        font-size: medium
+        width: 100%
+        
+        .logo
+            align-self: center
+            .image
+                width: 80vw
+
+        .email
+            align-self: flex-start
+            margin-right: 5px
+            margin-left: 0px
+        .phone
+            align-self: flex-start
+            margin-right: 5px
+            margin-left: 0px
+
+@media screen and (max-height: 640px), screen and (max-width: 374px)
+    .contactInfo
+        font-size: small
